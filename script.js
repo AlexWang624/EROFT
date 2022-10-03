@@ -1,13 +1,3 @@
-//
-//
-// console.log("js loaded. hello!");
-//
-//
-// d3.json("data.json").then(gotData);
-//
-// function gotData(incomingData){
-//   console.log(incomingData);
-// }
 let data = [{
   "tarot_interpretations": [{
       "fortune_telling": [
@@ -2465,7 +2455,7 @@ let data = [{
     },
     {
       "fortune_telling": [
-        "This card represents a young man or woman with an earthy, practical demeanor, likely born an Aries, Taurus, or Gemini, who playfully encourages you to take financial or sexual risks"
+        "A young man or woman with an earthy, practical demeanor, likely born an Aries, Taurus, or Gemini, will playfully encourage you to take financial or sexual risks"
       ],
       "keywords": [
         "practicality",
