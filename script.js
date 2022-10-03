@@ -2616,7 +2616,7 @@ const rndFor = randomIntFromInterval(0, 77);
 
 function myFunction() {
   document.getElementById("demo01").innerHTML = "A " + data[0].tarot_interpretations[rndName].name + ", " + " who has the qualities of " + data[0].tarot_interpretations[rndNameQ].keywords + ",";
-  document.getElementById("demo02").innerHTML = "and was " + data[0].tarot_interpretations[rndPast].meanings.light[rndPastMeaning] + ",";
+  document.getElementById("demo02").innerHTML = "who was " + data[0].tarot_interpretations[rndPast].meanings.light[rndPastMeaning] + ",";
   document.getElementById("demo03").innerHTML = "is now " + data[0].tarot_interpretations[rndPresent].meanings.light[rndPresentMeaning] + ".";
   document.getElementById("demo04").innerHTML = "Blinded by " + data[0].tarot_interpretations[rndHid].keywords[rndHidMeaning] + ",";
   document.getElementById("demo05").innerHTML = "They will be tangling in the challenge of " + data[0].tarot_interpretations[rndObs].meanings.light[rndObsMeaning] + ",";
